@@ -7,7 +7,9 @@ import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket"
 export default function Header() {
   return (
     <nav className="header">
+    <Link to="/">
       <img className="headerLogo" src="./shop.png" alt="logo" />
+      </Link>
       <div className="headerSearch">
         <input type="text" className="headerSearch_input" />
         <SearchIcon className="headerSearchIcon" />

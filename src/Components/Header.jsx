@@ -15,21 +15,21 @@ export default function Header() {
         <SearchIcon className="headerSearchIcon" />
       </div>
       <div className="headerNav">
-      <Link to="/login" className="headerLink">
+      <Link to="/" className="headerLink">
         <div className="headerOption">
           <span className="headerOptionLineOne">Hello,user</span>
           <span className="headerOptionLineTwo">login or logout</span>
         </div>
       </Link>
 
-      <Link to="/" className="headerLink">
+      <Link to="/home" className="headerLink">
         <div className="headerOption">
           <span className="headerOptionLineOne">Returns</span>
           <span className="headerOptionLineTwo">& orders</span>
         </div>
       </Link>
 
-      <Link to="/" className="headerLink">
+      <Link to="/home" className="headerLink">
         <div className="headerOption">
           <span className="headerOptionLineOne">You</span>
           <span className="headerOptionLineTwo">Prime</span>

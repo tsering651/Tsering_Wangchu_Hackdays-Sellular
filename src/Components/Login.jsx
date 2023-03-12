@@ -15,7 +15,9 @@ export default function Login() {
                 <input type="email"/>
                 <h5>Password</h5>
                 <input type="password"/><br/>
+                <Link to="/home">
                 <button type="submit" className='signInButton'>Sign In</button>
+                </Link>
             </form>
             <p>By signing In you are agreeing ShopNow TERMS and CONDITION</p>
              <button type="submit" className='signUpButton'>Create Your account..</button>

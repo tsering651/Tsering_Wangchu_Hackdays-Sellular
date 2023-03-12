@@ -15,7 +15,7 @@ export default function Header() {
         <SearchIcon className="headerSearchIcon" />
       </div>
       <div className="headerNav">
-      <Link to="/" className="headerLink">
+      <Link to="/login" className="headerLink">
         <div className="headerOption">
           <span className="headerOptionLineOne">Hello,user</span>
           <span className="headerOptionLineTwo">login or logout</span>

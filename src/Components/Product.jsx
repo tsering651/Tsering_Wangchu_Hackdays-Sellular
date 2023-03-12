@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Styling/Product.css"
 
 export default function Product(props) {
+    const[count,setCount]=useState(0);
+    const changeCount=()=>{
+           setCount(count+1);
+    }
   return (
     <div className="product">
       <div className="productInfo">
@@ -18,7 +22,7 @@ export default function Product(props) {
         </div>
       </div>
       <img src={props.image} alt="productImg"/>
-      <button>Add to basket</button>
+      <button >Add to basket</button>
     </div>
   );
 }

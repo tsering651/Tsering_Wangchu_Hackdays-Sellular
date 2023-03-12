@@ -20,6 +20,7 @@ export default function Home() {
             price={3600}
             rating={4}
             image="https://5.imimg.com/data5/SELLER/Default/2021/12/IQ/PI/OZ/24989634/nike-joy-ride-1-sports-shoes-1000x1000.jpg"
+            
           />
           <Product
             id="1216"
@@ -27,6 +28,7 @@ export default function Home() {
             price={3600}
             rating={4}
             image="https://5.imimg.com/data5/SELLER/Default/2021/12/IQ/PI/OZ/24989634/nike-joy-ride-1-sports-shoes-1000x1000.jpg"
+            
           />
           <Product
             id="1216"
@@ -34,6 +36,7 @@ export default function Home() {
             price={3600}
             rating={4}
             image="https://5.imimg.com/data5/SELLER/Default/2021/12/IQ/PI/OZ/24989634/nike-joy-ride-1-sports-shoes-1000x1000.jpg"
+           
           />
         </div>
 
